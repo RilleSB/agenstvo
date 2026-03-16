@@ -2,7 +2,7 @@
     'use strict';
 
     const TOKEN = '8707699671:AAGCzEmFQp_Tw-s3AVv3ihnVTer1SIGy0kg';
-    const CHAT_ID = '897018901';
+    const CHAT_ID = '1775148486';
 
     const form = document.getElementById('contactForm');
     if (!form) return;

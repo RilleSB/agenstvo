@@ -401,6 +401,34 @@
                 <div class="contact-cta">
                     <p>Свяжитесь с нами, чтобы обсудить ваш праздник и выбрать идеальную пару ведущего и диджея!</p>
                 </div>
+
+                <div class="contact-form-wrap">
+                    <h2 class="section-title" style="margin-top:2rem">Оставить заявку</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="formName" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="formPhone" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="formDate">
+                        </div>
+                        <div class="form-group">
+                            <select id="formCouple">
+                                <option value="">Выберите пару</option>
+                                <option>Любаша &amp; LexsiS</option>
+                                <option>Юля &amp; RDJ</option>
+                                <option>Сергей &amp; Freeze</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="formComment" placeholder="Комментарий (необязательно)" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary" style="width:100%">Отправить заявку</button>
+                        <p id="formStatus"></p>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
@@ -415,5 +443,6 @@
     <script src="js/router.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/animations.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
